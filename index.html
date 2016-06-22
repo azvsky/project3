@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="WEB, фронтэнд, верстка, проектирование, макет, отладка, тестировка">
+    <meta name="description" content=" Теоритические и практические курсы в WEB-школе A-Plus">
+    <title>A-Plus</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="aplus.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container clearfix">
+            <a class="logo" href="#"><img src="img/header-lable.png" alt="Логотип школы A-Plus" width="182" height="82"></a>
+            <nav>
+                <ul class="main-navigation">
+                    <li><a href="inner.html">Программа обучения</a></li>
+                    <li><a href="#">Выпускники</a></li>
+                    <li><a href="#">Как поступить</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            </div>  
+        <div class="main-header-description container clearfix">
+           <div class="opert">
+            <div class="main-header-text">Учеба еще никогда не была такой интересной!</div>
+            <p>Обучаем готовых к трудоустройству специалистов на теоритических и практических курсах.</p>
+            <a href="#" class="main-header-btn btn">Подать заявку</a>
+            </div>
+        </div>
+        </header>
+        <main>
+        <div class="features-row clearfix container">
+            <div class="features-item">
+                <h2 class="features-title">Гибкий график обучения</h2>
+                <p>Современный темп жизни требует гибкого подхода к расписанию.</p>
+            </div>
+            <div class="features-item">
+                <h2 class="features-title">Практические занятия</h2>
+                <p>На одной теории далеко не уедешь поэтому мы обучаем на практике.</p>
+            </div>
+            <div class="features-item">
+                <h2 class="features-title">Не оставим без работы</h2>
+             <p>Хорошие специалисты всегда в цене и Вы станете именно таким.</p>
+            </div>
+        </div>
+        <div class="reviews-index-item-zero">
+        <div class="reviews-index-item clearfix container">
+            <h2 class="reviews-index-title">Отзывы выпускников</h2>
+            <a class="reviews-index-all" href="#">Показать все</a>
+            <div class="reviews-index-left clearfix">
+            <img class="reviews-index-avatar" src="img/avatar.png" alt="Аватар" width="133" height="133">
+            <div class="reviews-index-nick">Иванов Пётр Сергеевич</div>
+            <p>Группа 04-И-15 Выпуск: 2009 г.</p>
+            </div>
+        <div class="reviews-index-right">
+            <h3>Тяжело в учении, легко в бою</h3>
+            <p>Во время обучения было очень тяжело, практическия занятия требовали усидчивости и гибкости ума. Однако, по прошествии времени, понял, что всё это было не зря! Устроился в ведущую студию своего города сразу после выпуска, а проработав там три года основал свою собственную!</p>
+        </div>
+        </div>
+        </div>
+        <div class="feedback clearfix container">
+            <h2 class="feedback-title"> Обpатная связь</h2>
+            <form class="feedback-form" action="/echo" method="post">
+            <label for="full-name">ФИО:</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Представьтесь пожалуйста">
+            <label for="age">Возраст:</label>
+            <input type="text" id="age" name="age" placeholder="Укажите возраст, хотя бы приблизительно">
+            <h2>Пол:</h2>
+            <input type="radio" id="sex-man" name="sex" value="man">
+            <label for="sex-man">Мужской</label>
+            <input type="radio" id="sex-woman" name="sex" value="woman">
+            <label for="sex-woman">Женский</label>
+            <br>
+            <label for="about_self">Вопрос:</label>
+            <textarea name="about_self" id="about_self" placeholder="Сообщите всё, что считаете нужным"></textarea>
+            <input class="btn" type="submit" value="Отправить">
+            </form>
+            <div class="feedback-information">
+                <h2 class="feedback-information-title">Заинтересовались обучением на нашей кафедре?</h2>
+                <ul class="feedback-information-support">
+                    <li>Заполните короткую форму обратной связи и отправьте нам</li>
+                    <li>Мы подготовим для вас индивидуальное предложение и выйдем на связь!</li>
+                    <li><strong>Внимание!</strong> Все поля обязательны для заполнения</li>
+                </ul>
+            </div>
+        </div>
+        </main>
+    <footer class="main-footer">
+        <div class="container clearfix">
+            <div class="footer-contacts">
+                <a href="#"><img src="img/footer_lable.png" alt="Логотиа школы A-Plus" width="180" height="81"></a>
+                <p>197101, г. Санкт-Петербург, пр. Кронверкский, д. 49</p>
+                <p>Все права защищены &copy; 2015</p>
+            </div>
+            <div class="footer-information">
+              <div class="footer-information-all-item clearfix">
+               <div class="footer-information-item">
+                <h2>Обучение</h2>
+                <ul>
+                    <li><a href="#">Расписание</a></li>
+                    <li><a href="#">Предметы</a></li>
+                    <li><a href="#">Практика</a></li>
+                </ul>
+                </div>
+                <div class="footer-information-item">
+                <h2>Выпускники</h2>
+                <ul>
+                    <li><a href="#">Достижения</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Найти</a></li>
+                </ul>
+                </div>
+                <div class="footer-information-item">
+                <h2>Как поступить</h2>
+                <ul>
+                    <li><a href="#">На коммерцию</a></li>
+                    <li><a href="#">Целевой набор</a></li>
+                    <li><a href="#">На бюджет</a></li> 
+                </ul>
+                </div>
+                <div class="footer-information-item">
+                <h2>Контакты</h2>
+                <ul>
+                    <li><a href="#">Обратная связь</a></li>
+                    <li><a href="#">Схема проезда</a></li>
+                    <li><a href="#">Телефон/Факс</a></li>
+                </ul>
+                </div>
+                </div>
+                <div class="footer-social">
+                <p>Подписчикам в соц.сетях &mdash; скидки на обучение!</p>
+                <div class="footer-social-block">
+                <a href="http://vk.com" class="social-btn social-btn-vk">Вконтакте</a>
+                <a href="http://facebook.com" class="social-btn social-btn-fb">Фейсбук</a>
+                <a href="https://twitter.com/" class="social-btn social-btn-twitter">Твиттер</a>
+            </div>
+               </div>
+                </div>
+        </div>
+    </footer>
+</body>
+</html>
